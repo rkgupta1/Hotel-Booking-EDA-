@@ -52,10 +52,9 @@ We are given a hotel bookings dataset. This dataset contains booking information
 All duplicate rows were dropped.
 
 ### (2) Handling null values
-- Null values in columns `company` and `agent` were replaced by 0.
-- Null values in column `country` were replaced by 'others'.
-- Null values in column `children` were replaced by the mean of the column.
-  
+- Null values in columns `company` and `agent` were deleted
+- Null values in column `country` were deleted as its not a imp feature
+
 
 ### (3) Converting columns to appropriate data types
 
@@ -169,9 +168,8 @@ And many more conclusions.
 ## Challenges
 ```
 (1) There was a lot of duplicate data.
-(2) Data was present in wrong datatype format.
-(3) Choosing appropriate visualization techniques to use was difficult.
-(4) A lot of null values were there in the dataset.
+(2) Choosing appropriate visualization techniques 
+(3) A lot of null values were there in the dataset.
 
 
 
